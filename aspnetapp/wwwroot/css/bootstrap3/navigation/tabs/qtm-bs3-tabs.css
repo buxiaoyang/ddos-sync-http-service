@@ -1,0 +1,107 @@
+.nav.nav-tabs, .nav.navbar-nav {
+  margin: 8px 0 0 0;
+  border-bottom: 1px solid transparent; }
+  .nav.nav-tabs > li, .nav.navbar-nav > li {
+    margin-left: 12px;
+    margin-right: 12px; }
+    .nav.nav-tabs > li > a, .nav.navbar-nav > li > a {
+      position: relative;
+      display: inline-block;
+      line-height: 37px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #323435;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 0;
+      border-width: 0;
+      padding: 0 0 0 0;
+      margin: 0; }
+      .nav.nav-tabs > li > a:before, .nav.navbar-nav > li > a:before {
+        position: absolute;
+        top: 100%;
+        content: "";
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0;
+        background-color: #000000;
+        transition: width 0.24s ease-out;
+        -webkit-transition: width 0.24s ease-out; }
+      .nav.nav-tabs > li > a:after, .nav.navbar-nav > li > a:after {
+        display: block;
+        content: attr(title);
+        font-weight: bold;
+        height: 0;
+        width: auto;
+        overflow: hidden;
+        visibility: hidden; }
+      .nav.nav-tabs > li > a:not(.disabled):hover, .nav.nav-tabs > li > a:not(:disabled):hover, .nav.navbar-nav > li > a:not(.disabled):hover, .nav.navbar-nav > li > a:not(:disabled):hover {
+        background: none;
+        border-bottom-color: transparent;
+        color: #000000; }
+      .nav.nav-tabs > li > a:not(.disabled):focus, .nav.nav-tabs > li > a:not(:disabled):focus, .nav.navbar-nav > li > a:not(.disabled):focus, .nav.navbar-nav > li > a:not(:disabled):focus {
+        background: none;
+        border-bottom-color: transparent;
+        outline: none;
+        color: #323435; }
+  .nav.nav-tabs.nav-sm > li > a, .nav.navbar-nav.nav-sm > li > a {
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3px; }
+    .nav.nav-tabs.nav-sm > li > a:before, .nav.navbar-nav.nav-sm > li > a:before {
+      height: 3px; }
+  .nav.nav-tabs.nav-primary > li > a, .nav.navbar-nav.nav-primary > li > a {
+    height: 48px;
+    line-height: 45px; }
+    .nav.nav-tabs.nav-primary > li > a::before, .nav.navbar-nav.nav-primary > li > a::before {
+      background-color: #0073E7; }
+
+.qtm-dark-theme .nav.nav-tabs > li > a, .qtm-dark-theme .nav.navbar-nav > li > a {
+  color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme .nav.nav-tabs > li > a:before, .qtm-dark-theme .nav.navbar-nav > li > a:before {
+    background-color: #FFFFFF; }
+  .qtm-dark-theme .nav.nav-tabs > li > a:not(.disabled):hover, .qtm-dark-theme .nav.nav-tabs > li > a:not(:disabled):hover, .qtm-dark-theme .nav.navbar-nav > li > a:not(.disabled):hover, .qtm-dark-theme .nav.navbar-nav > li > a:not(:disabled):hover {
+    background: none;
+    border-bottom-color: transparent;
+    color: #FFFFFF; }
+  .qtm-dark-theme .nav.nav-tabs > li > a:not(.disabled):focus, .qtm-dark-theme .nav.nav-tabs > li > a:not(:disabled):focus, .qtm-dark-theme .nav.navbar-nav > li > a:not(.disabled):focus, .qtm-dark-theme .nav.navbar-nav > li > a:not(:disabled):focus {
+    background: none;
+    border-bottom-color: transparent;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8); }
+
+.qtm-dark-theme .nav.nav-tabs.nav-primary > li > a::before, .qtm-dark-theme .nav.navbar-nav.nav-primary > li > a::before {
+  background-color: #1F91FF; }
+
+.nav.nav-tabs > li.disabled > a, .nav.nav-tabs > li.disabled:hover > a, .nav.nav-tabs > li.disabled:focus > a, .nav.nav-tabs > li:disabled > a, .nav.nav-tabs > li:disabled:hover > a, .nav.nav-tabs > li:disabled:focus > a, .nav.navbar-nav > li.disabled > a, .nav.navbar-nav > li.disabled:hover > a, .nav.navbar-nav > li.disabled:focus > a, .nav.navbar-nav > li:disabled > a, .nav.navbar-nav > li:disabled:hover > a, .nav.navbar-nav > li:disabled:focus > a {
+  background: none;
+  outline: none;
+  color: #cececf;
+  border-width: 0 0 3px 0;
+  border-bottom: transparent; }
+
+.nav.nav-tabs > li:not(.disabled).active > a, .nav.nav-tabs > li:not(.disabled):active > a, .nav.nav-tabs > li:not(:disabled).active > a, .nav.nav-tabs > li:not(:disabled):active > a, .nav.navbar-nav > li:not(.disabled).active > a, .nav.navbar-nav > li:not(.disabled):active > a, .nav.navbar-nav > li:not(:disabled).active > a, .nav.navbar-nav > li:not(:disabled):active > a {
+  font-weight: 600;
+  border-width: 0; }
+  .nav.nav-tabs > li:not(.disabled).active > a, .nav.nav-tabs > li:not(.disabled).active > a:hover, .nav.nav-tabs > li:not(.disabled).active > a:hover:focus, .nav.nav-tabs > li:not(.disabled):active > a, .nav.nav-tabs > li:not(.disabled):active > a:hover, .nav.nav-tabs > li:not(.disabled):active > a:hover:focus, .nav.nav-tabs > li:not(:disabled).active > a, .nav.nav-tabs > li:not(:disabled).active > a:hover, .nav.nav-tabs > li:not(:disabled).active > a:hover:focus, .nav.nav-tabs > li:not(:disabled):active > a, .nav.nav-tabs > li:not(:disabled):active > a:hover, .nav.nav-tabs > li:not(:disabled):active > a:hover:focus, .nav.navbar-nav > li:not(.disabled).active > a, .nav.navbar-nav > li:not(.disabled).active > a:hover, .nav.navbar-nav > li:not(.disabled).active > a:hover:focus, .nav.navbar-nav > li:not(.disabled):active > a, .nav.navbar-nav > li:not(.disabled):active > a:hover, .nav.navbar-nav > li:not(.disabled):active > a:hover:focus, .nav.navbar-nav > li:not(:disabled).active > a, .nav.navbar-nav > li:not(:disabled).active > a:hover, .nav.navbar-nav > li:not(:disabled).active > a:hover:focus, .nav.navbar-nav > li:not(:disabled):active > a, .nav.navbar-nav > li:not(:disabled):active > a:hover, .nav.navbar-nav > li:not(:disabled):active > a:hover:focus {
+    background: none;
+    color: #000000; }
+  .nav.nav-tabs > li:not(.disabled).active > a:focus, .nav.nav-tabs > li:not(.disabled):active > a:focus, .nav.nav-tabs > li:not(:disabled).active > a:focus, .nav.nav-tabs > li:not(:disabled):active > a:focus, .nav.navbar-nav > li:not(.disabled).active > a:focus, .nav.navbar-nav > li:not(.disabled):active > a:focus, .nav.navbar-nav > li:not(:disabled).active > a:focus, .nav.navbar-nav > li:not(:disabled):active > a:focus {
+    color: #323435; }
+  .nav.nav-tabs > li:not(.disabled).active > a:before, .nav.nav-tabs > li:not(.disabled):active > a:before, .nav.nav-tabs > li:not(:disabled).active > a:before, .nav.nav-tabs > li:not(:disabled):active > a:before, .nav.navbar-nav > li:not(.disabled).active > a:before, .nav.navbar-nav > li:not(.disabled):active > a:before, .nav.navbar-nav > li:not(:disabled).active > a:before, .nav.navbar-nav > li:not(:disabled):active > a:before {
+    width: 100%; }
+
+.qtm-dark-theme .nav.nav-tabs > li.disabled > a, .qtm-dark-theme .nav.nav-tabs > li.disabled:hover > a, .qtm-dark-theme .nav.nav-tabs > li.disabled:focus > a, .qtm-dark-theme .nav.nav-tabs > li:disabled > a, .qtm-dark-theme .nav.nav-tabs > li:disabled:hover > a, .qtm-dark-theme .nav.nav-tabs > li:disabled:focus > a, .qtm-dark-theme .nav.navbar-nav > li.disabled > a, .qtm-dark-theme .nav.navbar-nav > li.disabled:hover > a, .qtm-dark-theme .nav.navbar-nav > li.disabled:focus > a, .qtm-dark-theme .nav.navbar-nav > li:disabled > a, .qtm-dark-theme .nav.navbar-nav > li:disabled:hover > a, .qtm-dark-theme .nav.navbar-nav > li:disabled:focus > a {
+  background: none;
+  outline: none;
+  color: #4d595f;
+  border-bottom: transparent; }
+
+.qtm-dark-theme .nav.nav-tabs > li:not(.disabled).active > a, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled).active > a:hover, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled).active > a:hover:focus, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled):active > a, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled):active > a:hover, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled):active > a:hover:focus, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled).active > a, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled).active > a:hover, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled).active > a:hover:focus, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled):active > a, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled):active > a:hover, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled):active > a:hover:focus, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled).active > a, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled).active > a:hover, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled).active > a:hover:focus, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled):active > a, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled):active > a:hover, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled):active > a:hover:focus, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled).active > a, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled).active > a:hover, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled).active > a:hover:focus, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled):active > a, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled):active > a:hover, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled):active > a:hover:focus {
+  color: #FFFFFF; }
+
+.qtm-dark-theme .nav.nav-tabs > li:not(.disabled).active > a:focus, .qtm-dark-theme .nav.nav-tabs > li:not(.disabled):active > a:focus, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled).active > a:focus, .qtm-dark-theme .nav.nav-tabs > li:not(:disabled):active > a:focus, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled).active > a:focus, .qtm-dark-theme .nav.navbar-nav > li:not(.disabled):active > a:focus, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled).active > a:focus, .qtm-dark-theme .nav.navbar-nav > li:not(:disabled):active > a:focus {
+  color: rgba(255, 255, 255, 0.8); }

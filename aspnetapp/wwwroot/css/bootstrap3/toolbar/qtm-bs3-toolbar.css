@@ -1,0 +1,162 @@
+/* Quantum version 1.0.25 for Bootstrap 3 */
+body.qtm-dark-theme {
+  color: rgba(255, 255, 255, 0.8); }
+
+.qtm-dark-theme {
+  background-color: #203037; }
+  .qtm-dark-theme h1,
+  .qtm-dark-theme h2,
+  .qtm-dark-theme h3,
+  .qtm-dark-theme h4,
+  .qtm-dark-theme p {
+    color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme hr {
+    border-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme.theme-1 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-2 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-3 {
+    background-color: #203037; }
+
+.btn-toolbar {
+  background-color: #FFFFFF;
+  padding: 0 0 0 0;
+  webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+  .btn-toolbar.accentuated {
+    background-color: rgba(50, 52, 53, 0.1); }
+  .btn-toolbar.transparentize {
+    background-color: rgba(255, 255, 255, 0.9); }
+  .btn-toolbar .btn {
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    border-radius: 0;
+    border: 1px solid transparent;
+    background-image: none;
+    line-height: 16px;
+    height: 32px;
+    min-width: 32px;
+    max-width: 128px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: none;
+    text-shadow: none;
+    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+    -webkit-transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out; }
+    .btn-toolbar .btn.btn-default, .btn-toolbar .btn.btn-secondary {
+      color: #323435;
+      background-color: transparent; }
+    .btn-toolbar .btn.btn-primary {
+      min-width: 32px; }
+    .btn-toolbar .btn:first-child, .btn-toolbar .btn:last-child {
+      border-radius: 0; }
+    .btn-toolbar .btn i + span {
+      margin-left: 4px; }
+  .btn-toolbar:not(.list-buttons) .btn:focus {
+    outline: 0;
+    color: #323435;
+    background-color: transparent;
+    border-color: #0073E7; }
+  .btn-toolbar:not(.list-buttons) .btn:hover {
+    outline: 0;
+    border-color: transparent; }
+    .btn-toolbar:not(.list-buttons) .btn:hover.btn-default, .btn-toolbar:not(.list-buttons) .btn:hover.btn-secondary {
+      box-shadow: none;
+      color: #000000;
+      background-color: rgba(50, 52, 53, 0.1); }
+  .btn-toolbar:not(.list-buttons) .btn:focus, .btn-toolbar:not(.list-buttons) .btn:focus:hover {
+    box-shadow: unset; }
+  .btn-toolbar:not(.list-buttons) .btn:active, .btn-toolbar:not(.list-buttons) .btn:focus:hover:active, .btn-toolbar:not(.list-buttons) .btn:focus:active {
+    outline: 0; }
+    .btn-toolbar:not(.list-buttons) .btn:active.btn-default, .btn-toolbar:not(.list-buttons) .btn:active.btn-secondary, .btn-toolbar:not(.list-buttons) .btn:focus:hover:active.btn-default, .btn-toolbar:not(.list-buttons) .btn:focus:hover:active.btn-secondary, .btn-toolbar:not(.list-buttons) .btn:focus:active.btn-default, .btn-toolbar:not(.list-buttons) .btn:focus:active.btn-secondary {
+      box-shadow: unset;
+      color: #323435;
+      background-color: rgba(50, 52, 53, 0.2); }
+  .btn-toolbar:not(.list-buttons) .btn.active.btn-default, .btn-toolbar:not(.list-buttons) .btn.active.btn-secondary {
+    color: #323435;
+    background-color: rgba(50, 52, 53, 0.2); }
+  .btn-toolbar:not(.list-buttons) .btn:disabled, .btn-toolbar:not(.list-buttons) .btn:disabled:hover, .btn-toolbar:not(.list-buttons) .btn:disabled:active {
+    cursor: default;
+    border-color: transparent; }
+    .btn-toolbar:not(.list-buttons) .btn:disabled.btn-default, .btn-toolbar:not(.list-buttons) .btn:disabled.btn-secondary, .btn-toolbar:not(.list-buttons) .btn:disabled:hover.btn-default, .btn-toolbar:not(.list-buttons) .btn:disabled:hover.btn-secondary, .btn-toolbar:not(.list-buttons) .btn:disabled:active.btn-default, .btn-toolbar:not(.list-buttons) .btn:disabled:active.btn-secondary {
+      background-color: transparent;
+      color: #cececf; }
+  .btn-toolbar.bottom-label .btn {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    height: auto;
+    padding: 7px 8px 6px 8px;
+    max-width: 80px; }
+    .btn-toolbar.bottom-label .btn i + span {
+      margin: 0;
+      margin-top: 6px;
+      display: block;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .btn-toolbar > .btn + .btn-group {
+    margin-left: 0;
+    margin-right: 0; }
+  .btn-toolbar > .btn-group > .btn {
+    margin-left: 0;
+    margin-right: 0;
+    z-index: auto; }
+    .btn-toolbar > .btn-group > .btn:first-child {
+      margin-left: 0; }
+    .btn-toolbar > .btn-group > .btn:last-child {
+      margin-right: 0; }
+  .btn-toolbar .divider {
+    float: left;
+    border-left: 1px solid #DCDEDF;
+    margin: 12px 6px 12px 6px;
+    width: 1px;
+    height: 8px; }
+  .btn-toolbar .dropdown {
+    float: left; }
+
+.qtm-dark-theme .btn-toolbar {
+  background-color: #203037; }
+  .qtm-dark-theme .btn-toolbar.accentuated {
+    background-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme .btn-toolbar.transparentize {
+    background-color: rgba(32, 48, 55, 0.9); }
+  .qtm-dark-theme .btn-toolbar .btn {
+    border-color: transparent; }
+    .qtm-dark-theme .btn-toolbar .btn.btn-default, .qtm-dark-theme .btn-toolbar .btn.btn-secondary {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: transparent; }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    border-color: #0073E7; }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:hover {
+    border-color: transparent; }
+    .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:hover.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:hover.btn-secondary {
+      box-shadow: none;
+      color: #FFFFFF;
+      background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus:hover {
+    box-shadow: unset; }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:active.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:active.btn-secondary, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus:hover:active.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus:hover:active.btn-secondary, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus:active.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:focus:active.btn-secondary {
+    box-shadow: unset;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn.active.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn.active.btn-secondary {
+    color: #323435;
+    background-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled.btn-secondary, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled:hover.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled:hover.btn-secondary, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled:active.btn-default, .qtm-dark-theme .btn-toolbar:not(.list-buttons) .btn:disabled:active.btn-secondary {
+    background-color: transparent;
+    color: #4d595f; }
+  .qtm-dark-theme .btn-toolbar .divider {
+    border-left-color: rgba(255, 255, 255, 0.2); }

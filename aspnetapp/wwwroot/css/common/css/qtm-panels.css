@@ -1,0 +1,30 @@
+/* Quantum version 1.0.25 */
+.qtm-shadow-panel {
+  position: relative;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-image: linear-gradient(transparent, #DCDEDF, #DCDEDF, #DCDEDF, #DCDEDF, transparent) 1 100%;
+  border-image-width: 0 0 0 1px;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.05); }
+
+@-moz-document url-prefix() {
+  .qtm-shadow-panel {
+    box-shadow: -16px 0 10px -16px rgba(0, 0, 0, 0.25); } }
+
+.qtm-dark-theme .qtm-shadow-panel {
+  border-image: linear-gradient(rgba(0, 0, 0, 0), #191a1b, #191a1b, #191a1b, #191a1b, rgba(0, 0, 0, 0)) 1 100%;
+  border-image-width: 0 0 0 1px;
+  box-shadow: -16px 0 16px -16px rgba(0, 0, 0, 0.75); }
+
+@-moz-document url-prefix() {
+  .qtm-dark-theme .qtm-shadow-panel {
+    box-shadow: -16px 0 10px -16px rgba(0, 0, 0, 0.75); } }
+
+.qtm-dark-theme.theme-1 .qtm-shadow-panel {
+  border-image: linear-gradient(rgba(0, 0, 0, 0), #0d1417, #0d1417, #0d1417, #0d1417, rgba(0, 0, 0, 0)) 1 100%; }
+
+.qtm-dark-theme.theme-2 .qtm-shadow-panel {
+  border-image: linear-gradient(rgba(0, 0, 0, 0), #0d1417, #0d1417, #0d1417, #0d1417, rgba(0, 0, 0, 0)) 1 100%; }
+
+.qtm-dark-theme.theme-3 .qtm-shadow-panel {
+  border-image: linear-gradient(rgba(0, 0, 0, 0), #0d1417, #0d1417, #0d1417, #0d1417, rgba(0, 0, 0, 0)) 1 100%; }

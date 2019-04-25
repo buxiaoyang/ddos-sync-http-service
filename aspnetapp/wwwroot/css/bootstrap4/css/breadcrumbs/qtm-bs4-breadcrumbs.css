@@ -1,0 +1,47 @@
+/* Quantum version 1.0.25 for Bootstrap 4 */
+@charset "UTF-8";
+/* Font icon mappings */
+.breadcrumb {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0; }
+  .breadcrumb > .breadcrumb-item > a {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.56);
+    text-decoration: none; }
+    .breadcrumb > .breadcrumb-item > a:focus {
+      color: #0073E7;
+      text-decoration: underline;
+      font-weight: 400; }
+    .breadcrumb > .breadcrumb-item > a:hover {
+      color: #0073E7;
+      text-decoration: none;
+      font-weight: 400; }
+  .breadcrumb > .active, .breadcrumb > :active {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700; }
+  .breadcrumb > .breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+    font-family: "QuantumIcons";
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.56);
+    padding: 0 8px; }
+
+.qtm-dark-theme .breadcrumb {
+  background-color: transparent; }
+  .qtm-dark-theme .breadcrumb > .breadcrumb-item > a {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6); }
+    .qtm-dark-theme .breadcrumb > .breadcrumb-item > a:focus {
+      color: #00ABF3; }
+    .qtm-dark-theme .breadcrumb > .breadcrumb-item > a:hover {
+      color: #00ABF3; }
+  .qtm-dark-theme .breadcrumb > .active, .qtm-dark-theme .breadcrumb > :active {
+    color: #FFFFFF; }
+  .qtm-dark-theme .breadcrumb > .breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, 0.6); }

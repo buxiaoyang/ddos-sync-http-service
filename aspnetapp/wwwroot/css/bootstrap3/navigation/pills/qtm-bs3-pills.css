@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Font icon mappings */
+.nav.nav-stacked {
+  margin: 0 0 24px 0;
+  background-color: transparent; }
+  .nav.nav-stacked > li {
+    margin-bottom: 0; }
+    .nav.nav-stacked > li > a {
+      margin-top: 0;
+      height: 40px;
+      border: 1px solid transparent;
+      padding: 12px 24px 12px 24px;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      color: #656668;
+      line-height: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0.3px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }
+      .nav.nav-stacked > li > a:hover {
+        color: #656668;
+        background-color: rgba(0, 115, 231, 0.05);
+        text-decoration: none; }
+      .nav.nav-stacked > li > a:focus {
+        color: #656668;
+        background-color: rgba(0, 115, 231, 0.1);
+        text-decoration: none; }
+      .nav.nav-stacked > li > a.has-caret:before {
+        content: "";
+        display: inline-block;
+        font-family: "QuantumIcons";
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        font-weight: 700;
+        transition: 0.2s ease-out;
+        color: #000000;
+        margin-left: 0;
+        margin-right: 8px; }
+      .nav.nav-stacked > li > a.has-caret.open:before, .nav.nav-stacked > li > a.has-caret.expanded:before {
+        transform: rotate(90deg) translate(2px, -5px); }
+      .nav.nav-stacked > li > a.has-caret .qtm-icon {
+        margin-top: 12px; }
+    .nav.nav-stacked > li:not(.sub-nav) > a:not(.has-caret) {
+      padding-left: 42px; }
+    .nav.nav-stacked > li.sub-nav {
+      height: 32px;
+      opacity: 1;
+      transform: translateX(0);
+      transition: height 0.12s ease-out 0s, opacity 0.24s cubic-bezier(0.48, 1, 0.38, 0.98) 0.08s, transform 0.4s cubic-bezier(0.48, 1, 0.38, 0.98) 0.08s;
+      -webkit-transition: height 0.12s ease-out 0s, opacity 0.24s cubic-bezier(0.48, 1, 0.38, 0.98) 0.08s, transform 0.4s cubic-bezier(0.48, 1, 0.38, 0.98) 0.08s;
+      will-change: height; }
+      .nav.nav-stacked > li.sub-nav > a {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0.3px;
+        line-height: 14px;
+        height: 32px;
+        padding-top: 9px;
+        padding-left: 48px;
+        padding-bottom: 9px;
+        margin-left: 0; }
+        .nav.nav-stacked > li.sub-nav > a:not(.has-caret) {
+          padding-left: 66px; }
+      .nav.nav-stacked > li.sub-nav.nav-second-level > a {
+        padding-left: 72px;
+        margin-left: 0; }
+        .nav.nav-stacked > li.sub-nav.nav-second-level > a:not(.has-caret) {
+          padding-left: 90px; }
+      .nav.nav-stacked > li.sub-nav.nav-third-level > a {
+        padding-left: 96px;
+        margin-left: 0; }
+        .nav.nav-stacked > li.sub-nav.nav-third-level > a:not(.has-caret) {
+          padding-left: 114px; }
+      .nav.nav-stacked > li.sub-nav.nav-fourth-level > a {
+        padding-left: 120px;
+        margin-left: 0; }
+        .nav.nav-stacked > li.sub-nav.nav-fourth-level > a:not(.has-caret) {
+          padding-left: 138px; }
+      .nav.nav-stacked > li.sub-nav.nav-fifth-level > a {
+        padding-left: 144px;
+        margin-left: 0; }
+        .nav.nav-stacked > li.sub-nav.nav-fifth-level > a:not(.has-caret) {
+          padding-left: 162px; }
+      .nav.nav-stacked > li.sub-nav.ng-hide, .nav.nav-stacked > li.sub-nav.hide {
+        height: 22px;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: height 0.16s ease-out 0.12s, opacity 0.12s cubic-bezier(0.48, 1, 0.38, 0.98) 0s, transform 0.12s cubic-bezier(0.48, 1, 0.38, 0.98) 0s;
+        -webkit-transition: height 0.16s ease-out 0.12s, opacity 0.12s cubic-bezier(0.48, 1, 0.38, 0.98) 0s, transform 0.12s cubic-bezier(0.48, 1, 0.38, 0.98) 0s; }
+    .nav.nav-stacked > li.active {
+      border-left: none; }
+      .nav.nav-stacked > li.active > a {
+        background-color: transparent;
+        color: #000000;
+        font-weight: 700;
+        box-shadow: inset 4px 0 0 #0073E7; }
+        .nav.nav-stacked > li.active > a:hover {
+          background-color: rgba(0, 115, 231, 0.05);
+          color: #000000;
+          font-weight: 700; }
+        .nav.nav-stacked > li.active > a:focus {
+          background-color: rgba(0, 115, 231, 0.1);
+          color: #000000;
+          font-weight: 700; }
+      .nav.nav-stacked > li.active > a:focus {
+        border-color: #0073E7; }
+    .nav.nav-stacked > li.disabled {
+      cursor: no-drop; }
+      .nav.nav-stacked > li.disabled > a {
+        pointer-events: none;
+        color: #cececf; }
+
+.qtm-dark-theme .nav.nav-stacked {
+  background-color: transparent; }
+  .qtm-dark-theme .nav.nav-stacked > li > a {
+    border-color: transparent;
+    color: rgba(255, 255, 255, 0.8); }
+    .qtm-dark-theme .nav.nav-stacked > li > a:hover {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(0, 115, 231, 0.1); }
+    .qtm-dark-theme .nav.nav-stacked > li > a:focus {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(0, 115, 231, 0.1); }
+    .qtm-dark-theme .nav.nav-stacked > li > a.has-caret:before {
+      color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme .nav.nav-stacked > li.active > a {
+    background-color: transparent;
+    color: #FFFFFF;
+    box-shadow: inset 4px 0 0 #1F91FF; }
+    .qtm-dark-theme .nav.nav-stacked > li.active > a:hover {
+      background-color: rgba(0, 115, 231, 0.1);
+      color: #FFFFFF; }
+    .qtm-dark-theme .nav.nav-stacked > li.active > a:focus {
+      background-color: rgba(0, 115, 231, 0.1);
+      color: #FFFFFF; }
+  .qtm-dark-theme .nav.nav-stacked > li.active > a:focus {
+    border-color: #0073E7; }
+  .qtm-dark-theme .nav.nav-stacked > li.disabled > a {
+    color: #4d595f; }

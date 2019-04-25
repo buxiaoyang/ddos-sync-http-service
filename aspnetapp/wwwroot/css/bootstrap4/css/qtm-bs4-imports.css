@@ -1,0 +1,27 @@
+/* Quantum version 1.0.25 for Bootstrap 4 */
+@import "../../common/css/qtm-fonts.css";
+@import "../../common/css/qtm-icons.css";
+@import "../../common/css/qtm-font-icons.css";
+@import "../../common/css/qtm-text.css";
+@import "../../common/css/qtm-color-schemes.css";
+@import "../../common/css/qtm-panels.css";
+@import "../../common/css/qtm-busy.css";
+@import "../../common/css/qtm-paper.css";
+@import "../../common/css/qtm-family-icon.css";
+
+@import "alert/qtm-bs4-alert.css";
+@import "breadcrumbs/qtm-bs4-breadcrumbs.css";
+@import "button/qtm-bs4-button.css";
+@import "checkbox/qtm-bs4-checkbox.css";
+@import "form/qtm-bs4-form.css";
+@import "input/qtm-bs4-input.css";
+@import "list/qtm-bs4-list.css";
+@import "modal/qtm-bs4-modal.css";
+@import "navigation/tabs/qtm-bs4-tabs.css";
+@import "radio/qtm-bs4-radio.css";
+@import "slider/qtm-bs4-slider.css";
+@import "tag/qtm-bs4-tag.css";
+@import "tooltip/qtm-bs4-tooltip.css";
+@import "close/qtm-bs4-close.css";
+
+@import "../../common/css/qtm-layout.css";

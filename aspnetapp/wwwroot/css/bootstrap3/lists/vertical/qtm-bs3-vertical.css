@@ -1,0 +1,48 @@
+/* common input specs */
+/* vertical */
+.btn-group-vertical {
+  margin: 5px 15px 5px 5px !important; }
+
+.btn-group-vertical > .btn,
+.btn-group-vertical > .btn:focus {
+  width: 320px;
+  height: 40px;
+  text-align: left;
+  margin: 0 0 0 0;
+  padding: 0 20px 0 20px;
+  color: #656668;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+  background: transparent; }
+
+.btn-group-vertical > .btn:hover {
+  color: #323435;
+  background: rgba(50, 52, 53, 0.05); }
+
+.btn-group-vertical > .active,
+.btn-group-vertical > .active:hover,
+.btn-group-vertical > .active:focus {
+  color: #FFFFFF;
+  background: #0073E7; }
+
+.qtm-dark-theme > .btn-group-vertical > .btn:hover {
+  background-color: rgba(50, 52, 53, 0.05); }
+
+.qtm-dark-theme > .btn-group-vertical > .active,
+.qtm-dark-theme > .btn-group-vertical > .active:hover,
+.qtm-dark-theme > .btn-group-vertical > .active:focus {
+  background-color: rgba(50, 52, 53, 0.2); }
+
+.qtm-dark-theme > .btn-group-vertical > .btn,
+.qtm-dark-theme > .btn-group-vertical > .btn:focus,
+.qtm-dark-theme > .btn-group-vertical > .btn:hover,
+.qtm-dark-theme > .btn-group-vertical > .active,
+.qtm-dark-theme > .btn-group-vertical > .active:hover,
+.qtm-dark-theme > .btn-group-vertical > .active:focus,
+.qtm-dark-theme > .list-horizontal > li > .active {
+  color: #FFFFFF !important; }

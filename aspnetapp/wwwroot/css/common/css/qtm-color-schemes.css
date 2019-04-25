@@ -1,0 +1,20 @@
+/* Quantum version 1.0.25 */
+body.qtm-dark-theme {
+  color: rgba(255, 255, 255, 0.8); }
+
+.qtm-dark-theme {
+  background-color: #203037; }
+  .qtm-dark-theme h1,
+  .qtm-dark-theme h2,
+  .qtm-dark-theme h3,
+  .qtm-dark-theme h4,
+  .qtm-dark-theme p {
+    color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme hr {
+    border-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme.theme-1 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-2 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-3 {
+    background-color: #203037; }

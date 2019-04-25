@@ -1,0 +1,24 @@
+/* common input specs */
+/* horizontal */
+.list-horizontal {
+  margin: 5px 15px 5px 5px; }
+
+.list-horizontal > li {
+  display: inline; }
+
+.list-horizontal > li > a,
+.list-horizontal > li > a:focus,
+.list-horizontal > li > a:hover {
+  padding: 0 20px 0 20px;
+  color: #656668;
+  font-weight: 600;
+  font-size: 19px;
+  text-decoration: none; }
+
+.list-horizontal > li > .active {
+  color: #323435; }
+
+.qtm-dark-theme > .list-horizontal > li > a,
+.qtm-dark-theme > .list-horizontal > li > a:focus,
+.qtm-dark-theme > .list-horizontal > li > a:hover {
+  color: rgba(255, 255, 255, 0.9); }

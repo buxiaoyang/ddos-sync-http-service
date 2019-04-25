@@ -1,0 +1,128 @@
+/* Quantum version 1.0.25 for Bootstrap 3 */
+/* Font icon mappings */
+/* Font icon mappings */
+.modal .qtm-about-dialog.modal-dialog {
+  width: 780px;
+  height: 480px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.25); }
+
+.modal .qtm-about-dialog.modal-dialog .modal-content {
+  box-shadow: none; }
+
+.qtm-about-suite-panel {
+  width: 300px;
+  height: 480px;
+  color: #FFFFFF;
+  padding: 24px;
+  float: left;
+  background-color: #00ABF3; }
+  .qtm-about-suite-panel .qtm-suite-name {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px; }
+  .qtm-about-suite-panel .qtm-about-decoration {
+    position: absolute;
+    left: 0px;
+    top: 296px; }
+  .qtm-about-suite-panel:not(.qtm-family-icon-container) .qtm-family-logo {
+    position: absolute;
+    left: 24px;
+    bottom: 24px; }
+  .qtm-about-suite-panel:not(.qtm-family-icon-container) > .qtm-family-name {
+    position: absolute;
+    left: 56px;
+    bottom: 26px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #FFFFFF; }
+  .qtm-about-suite-panel .qtm-family-icon-container {
+    position: absolute;
+    left: 24px;
+    bottom: 24px; }
+    .qtm-about-suite-panel .qtm-family-icon-container .qtm-family-icon {
+      color: #FFFFFF;
+      border-color: #FFFFFF; }
+    .qtm-about-suite-panel .qtm-family-icon-container .qtm-family-name {
+      color: #FFFFFF; }
+
+.qtm-about-capability-panel {
+  width: 480px;
+  height: 480px;
+  float: right;
+  background-color: #FFFFFF; }
+  .qtm-about-capability-panel .qtm-about-tabs {
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    right: 12px;
+    margin: 0; }
+  .qtm-about-capability-panel .qtm-about-tab-content {
+    padding: 48px 24px 24px 24px;
+    position: absolute;
+    top: 72px;
+    left: 0px;
+    right: 0px;
+    bottom: 49px;
+    overflow: auto; }
+    .qtm-about-capability-panel .qtm-about-tab-content .qtm-capability-name {
+      margin-top: 0;
+      margin-bottom: 8px; }
+    .qtm-about-capability-panel .qtm-about-tab-content .qtm-capability-release {
+      font-size: 14px; }
+    .qtm-about-capability-panel .qtm-about-tab-content .qtm-capability-build {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.56); }
+    .qtm-about-capability-panel .qtm-about-tab-content h5 {
+      margin-top: 0;
+      margin-bottom: 8px; }
+    .qtm-about-capability-panel .qtm-about-tab-content p {
+      margin-bottom: 24px; }
+    .qtm-about-capability-panel .qtm-about-tab-content .qtm-tab-content-bottom {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      padding: 48px 24px 24px 24px; }
+      .qtm-about-capability-panel .qtm-about-tab-content .qtm-tab-content-bottom .qtm-disclaimer {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.56); }
+      .qtm-about-capability-panel .qtm-about-tab-content .qtm-tab-content-bottom .qtm-copyright {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.56);
+        margin-top: 32px; }
+      .qtm-about-capability-panel .qtm-about-tab-content .qtm-tab-content-bottom .qtm-microfocus-logo {
+        float: right; }
+  .qtm-about-capability-panel .qtm-about-footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; }
+
+.qtm-about-suite-panel.qtm-family-CP {
+  background-color: #29CEFF; }
+
+.qtm-about-suite-panel.qtm-family-M {
+  background-color: #231CA5; }
+
+.qtm-about-suite-panel.qtm-family-A {
+  background-color: #014272; }
+
+.qtm-about-suite-panel.qtm-family-IT {
+  background-color: #00ABF3; }
+
+.qtm-about-suite-panel.qtm-family-C {
+  background-color: #1668C1; }
+
+.qtm-about-suite-panel.qtm-family-S {
+  background-color: #000000; }
+
+.qtm-about-suite-panel.qtm-family-BC {
+  background-color: #2fD6C3; }
+
+.qtm-about-suite-panel.qtm-family-IG {
+  background-color: #00645a; }
+
+.qtm-about-suite-panel.qtm-family-BD {
+  background-color: #75DA4D; }

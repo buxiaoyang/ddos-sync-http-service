@@ -1,0 +1,656 @@
+/* Quantum version 1.0.25 for Bootstrap 3 */
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF; }
+  .login-container .logo-container {
+    position: absolute;
+    background-color: #00ABF3;
+    width: 164px;
+    height: 164px;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: scale(20) rotate(90deg);
+    transform-origin: center;
+    border-radius: 50%;
+    padding: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: login-logo-container-animation;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 600ms; }
+    .login-container .logo-container .logo {
+      opacity: 0;
+      animation-name: login-logo-animation;
+      animation-delay: 1600ms;
+      animation-duration: 400ms;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+      height: auto;
+      width: 100%; }
+  .login-container .company-logo {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    width: 80px;
+    height: 20px;
+    animation: login-company-logo-animation;
+    animation-delay: 2700ms;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+    .login-container .company-logo.company-logo-image {
+      background-repeat: no-repeat;
+      background-size: 80px 20px;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAqCAYAAAATStF7AAAACXBIWXMAAAsSAAALEgHS3X78AAAEeUlEQVR42u1dy3HbMBB9zvhudWClAumwd9MVRKnASgVRB5Y6oCoI0wE7CH32zkTugOmAqsA5ZDmhYFIECf65b8YHw+QCXDwCD4slfPP+/o5rYObrF3QEIropu4aZPQC/MkVnAEsiSmzqYGYfwPdM0YGI9iX37AE8Z4oeiSgquWcL4IejS45EtLN4pib67xsRBRZ1BQCeHOo5A9gSUWjYXQLYA1gAiAEkab98wrRxByCwJK9nkLdN+A3Y+N6hH30L/60dyZv2186wu5A+PAmBAwCRDDaTJzAAfGHmTYnzFwDCjl+ssQ0EZVi0VPc2M/r6ACIASToy32IeCJh5TURx0d97JNVZRhcbrB3b2WVdf2S6t8HDtReDiCKZIX0AERGdmDkEMBsCp1LCyxl9NwC+9Ni2ExF5ljInKunsIdUVlK0fLHV6IvIEIi9SmxsA/ifMBw/MvMtZHARQDHr2lJE3kRE9lH5cEFE89RH4bEyDe2aOiOg0AOlQJxLjzY29RJRI1GYvM2gCICaiLQDczuDt3QC4N6TEWt5ic4o84DIkNjWsRRrYauChkDiWxdwH3JbFCW3ir02gpXhzIg+ejQ2vJF5pRiaOssKdMoHvHHXt4DB5DSybCkej+MmQDm+ZxYEiX4opgXvEXkhahK3tbt1MsRtqw2YRRsssBH7n/PmQWdRNHS/mQjAnXHYG4I3FJ7MJo0mHHIziN9tY5RDAzD4zR+lPQ2Y3hkS4w7+Nn4USeHgkNqXEdmxRBBktH5pajIl0Mv2wQjP5GiohWiDxemBNWkpGm9W1LfkkZOYjLhOEnpg5NDPDKsCr8FxK4BHjHgMI3RHRTvINVpnishySa2hsllAJoXDRw+GQG6wE7gfHJiIKLYzCMT6GzFZp7m3JvRGuhyptUWlxOjUJcQLwmPk97uD+wHD6yaKzd5IO6EI2247OPk9iYTdg5rhmszy4bUEnVcN3N6+vr6PYSu6qHYpxQSWEQgmsUCiBFYoamNQiTrY/m9ioyF1MyBccSwe78bWYagP2CxdBOb6JbeO7Eh+uU0fri7ipRSHWuMz9rYsXGN/P5Zw5Ufcl+5xHHCHvCY5fiDDz14LdM9M3B9inkP665psMIlxuhNRp/6FKfopKCHt4DdnZXim/a+gl7mP281zJW8fPSmCFauAB4wUVd3ZSfWhxzU/L65aod2KNbdvr2h+S75+VwAWarMV838BmN0ym1qe22u5gfzC+Z2Yl8IyR4DIvIh7hM1Ta7lYCTwgSdvJG/gxR3XunTuDnCtPTo4sjFU6+T5F7vKpGIRRjwYfjVZXAiq7Qi/YulRBdndDeUrpklSM+9VwIt/6Lmfkr6p0h8dAagUeOYEyfzU+AxCFqfILkMkhqFGLkyMnROPTx0soZvr4xeAS9SwiFwhILQwpEg9DAikL4zJxYdmwdbI00xr7sY6D2lcCOWLVs/x7/zzVW+wXQMFr3KBq145G3v5cojhLYHgH+heVc8Ibi/8kRwv2shz9F9mWX0dX+GQVJ8LKl/bMB+5XOZPsL95rHvESSuvYAAAAASUVORK5CYII=); }
+  .login-container .character-grid {
+    position: absolute;
+    top: calc(17% + 63px);
+    left: calc(50% - 164px - 12px);
+    width: 240px;
+    height: 180px;
+    z-index: 1;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none; }
+  .login-container .family-icon {
+    position: absolute;
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0);
+    transform: rotate(45deg) scale(0);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    animation-name: login-family-icon-animation;
+    animation-delay: 2000ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    border-color: #00ABF3; }
+    .login-container .family-icon:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 34px;
+      height: 34px;
+      border-top: 7px solid;
+      border-right: 7px solid;
+      top: -6px;
+      right: -6px;
+      border-top-color: inherit;
+      border-right-color: inherit; }
+    .login-container .family-icon:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 34px;
+      height: 34px;
+      border-bottom: 7px solid;
+      border-left: 7px solid;
+      bottom: -6px;
+      left: -6px;
+      border-bottom-color: inherit;
+      border-left-color: inherit; }
+  .login-container .family-name-container {
+    position: absolute;
+    top: calc(17% + 63px + 180px + 24px  + 40px - 6px);
+    left: calc(50% - 164px - 12px + 40px + (7px * 2) + 6px);
+    overflow: hidden; }
+    .login-container .family-name-container .family-name {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 120%;
+      letter-spacing: 0.5px;
+      color: rgba(0, 0, 0, 0);
+      transform: translateX(-100%);
+      will-change: transform, color;
+      animation-name: login-family-name-animation;
+      animation-duration: 600ms;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+      animation-delay: 2300ms; }
+  .login-container .form-panel {
+    position: absolute;
+    background-color: transparent;
+    z-index: 3;
+    top: calc(17% + 164px);
+    left: calc((50% - 164px - 12px) + 240px - 40px);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    padding: 32px 32px 32px 32px;
+    overflow: visible;
+    box-shadow: none;
+    width: auto;
+    opacity: 0;
+    max-width: 520px;
+    animation-name: login-form-panel-animation;
+    animation-delay: 2700ms;
+    animation-duration: 530ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1); }
+    .login-container .form-panel .form-title {
+      color: #000000;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 48px;
+      letter-spacing: 1.5px;
+      overflow: hidden;
+      margin-top: 0;
+      margin-bottom: 32px;
+      white-space: nowrap; }
+    .login-container .form-panel input {
+      color: #000000;
+      font-weight: 600;
+      font-size: 16px; }
+    .login-container .form-panel > * {
+      max-width: 0;
+      animation-name: login-form-control-animation;
+      animation-duration: 600ms;
+      animation-delay: 2800ms;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear; }
+    .login-container .form-panel button.btn {
+      opacity: 0;
+      animation-name: login-button-animation;
+      animation-duration: 600ms;
+      animation-delay: 2200ms;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear; }
+    .login-container .form-panel .form-group:last-of-type {
+      margin-bottom: 0; }
+  .login-container.login-alternate-1 .graphic-panel {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 250px;
+    z-index: 1;
+    animation-name: login-graphic-panel-animation;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-duration: 670ms;
+    animation-delay: 250ms;
+    background-attachment: fixed;
+    will-change: background-position-x; }
+  .login-container.login-alternate-1 .content-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: 2;
+    overflow: hidden;
+    animation-name: login-content-panel-animation;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-duration: 670ms;
+    animation-delay: 250ms;
+    will-change: width; }
+  .login-container.login-alternate-1 .logo-container {
+    right: 0;
+    top: 17%;
+    left: auto;
+    animation-name: login-logo-container-animation--alt1;
+    animation-delay: 720ms;
+    animation-duration: 670ms;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    will-change: transform;
+    transform: translateX(100%);
+    border-radius: 0; }
+    .login-container.login-alternate-1 .logo-container .logo {
+      animation: none;
+      opacity: 1; }
+  .login-container.login-alternate-1 .family-icon {
+    top: calc(17% + 63px + 180px + 24px);
+    right: 265px;
+    left: auto;
+    animation-name: login-family-icon-animation--alt1;
+    animation-duration: 570ms;
+    animation-delay: 1190ms; }
+  .login-container.login-alternate-1 .family-name-container {
+    right: 85px;
+    left: auto;
+    width: 140px; }
+    .login-container.login-alternate-1 .family-name-container .family-name {
+      animation-name: login-family-icon-animation--alt1;
+      animation-duration: 600ms;
+      animation-delay: 1490ms; }
+  .login-container.login-alternate-1 .form-panel {
+    top: calc(17% + 164px);
+    left: calc(40% - 56px);
+    animation-delay: 1890ms;
+    animation-duration: 530ms; }
+    .login-container.login-alternate-1 .form-panel > * {
+      animation-delay: 1990ms; }
+  .login-container.login-alternate-1 .character-grid {
+    right: 45px;
+    left: auto; }
+  .login-container.login-alternate-1 .company-logo {
+    animation-delay: 1890ms; }
+  .login-container.login-no-animation .logo-container {
+    animation: none;
+    transform: none; }
+  .login-container.login-no-animation .form-panel {
+    background-color: #FFFFFF;
+    width: auto;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    opacity: 1;
+    animation: none;
+    transform: none; }
+    .login-container.login-no-animation .form-panel > * {
+      max-width: 100%;
+      animation: none;
+      transform: none; }
+    .login-container.login-no-animation .form-panel button.btn {
+      opacity: 1;
+      animation: none;
+      transform: none; }
+  .login-container.login-no-animation.login-alternate-1 .graphic-panel {
+    animation: none;
+    transform: none; }
+  .login-container.login-no-animation .content-panel {
+    width: 40%;
+    animation: none;
+    transform: none; }
+  .login-container.login-no-animation .family-icon, .login-container.login-no-animation .family-name-container .family-name {
+    top: calc(17% + 63px + 180px + 24px);
+    right: 225px;
+    color: #000000;
+    animation: none;
+    transform: none; }
+  .login-container.login-no-animation .character-grid {
+    animation: none;
+    transform: none; }
+
+@keyframes login-logo-animation {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes login-company-logo-animation {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes login-logo-container-animation {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: scale(20) rotate(90deg);
+    border-radius: 50%; }
+  5% {
+    top: 15%;
+    left: 62.3%;
+    transform: scale(1.9) rotate(97deg);
+    border-radius: 20%; }
+  15% {
+    top: 16%;
+    left: 65.5%;
+    transform: scale(0.55) rotate(84deg);
+    border-radius: 0; }
+  30% {
+    top: 16%;
+    left: 66.1%;
+    transform: scale(0.4) rotate(98deg);
+    border-radius: 0; }
+  45% {
+    top: 16.5%;
+    left: 67%;
+    transform: scale(0.37) rotate(121deg);
+    border-radius: 0; }
+  60% {
+    top: 16.6%;
+    left: 67.3%;
+    transform: scale(0.37) rotate(126deg);
+    border-radius: 0; }
+  85% {
+    top: 16.6%;
+    left: 67.6%;
+    transform: scale(0.37) rotate(133deg);
+    border-radius: 0; }
+  100% {
+    top: 17%;
+    left: 47%;
+    transform: scale(1) rotate(0deg);
+    border-radius: 0; } }
+
+@keyframes login-family-icon-animation {
+  0% {
+    top: 50%;
+    left: 42%;
+    color: rgba(0, 0, 0, 0);
+    transform: rotate(45deg) scale(0.01) translateX(-200%) translateY(267px); }
+  40% {
+    top: 17%;
+    left: 50%;
+    color: rgba(0, 0, 0, 0);
+    transform: rotate(0deg) scale(1) translateX(-200px) translateY(267px); }
+  100% {
+    top: 17%;
+    left: 50%;
+    color: #000000;
+    transform: rotate(0deg) scale(1) translateX(-145px) translateY(267px); } }
+
+@keyframes login-family-name-animation {
+  from {
+    color: rgba(0, 0, 0, 0);
+    transform: translateX(-100%); }
+  to {
+    color: #000000;
+    transform: translateX(0); } }
+
+@keyframes login-form-character-grid-animation {
+  0% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes login-form-panel-animation {
+  0% {
+    background-color: #FFFFFF;
+    width: 0;
+    box-shadow: none;
+    opacity: 0; }
+  60% {
+    background-color: #FFFFFF;
+    box-shadow: none;
+    opacity: 1; }
+  100% {
+    background-color: #FFFFFF;
+    width: auto;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    opacity: 1; } }
+
+@keyframes login-form-control-animation {
+  from {
+    max-width: 0; }
+  to {
+    max-width: 100%; } }
+
+@keyframes login-graphic-panel-animation {
+  from {
+    background-position-x: 250px; }
+  to {
+    background-position-x: 0; } }
+
+@keyframes login-content-panel-animation {
+  from {
+    width: 100%; }
+  to {
+    width: 40%; } }
+
+@keyframes login-button-animation {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes login-family-icon-animation--alt1 {
+  0% {
+    top: calc(calc(17% + 180px + 60px) - (40px + 7px));
+    right: 272px;
+    color: transparent;
+    transform: rotate(45deg) scale(0); }
+  40% {
+    top: calc(17% + 180px + 60px);
+    right: 312px;
+    color: rgba(0, 0, 0, 0);
+    transform: rotate(0deg) scale(1) translateX(-7px); }
+  100% {
+    top: calc(17% + 63px + 180px + 24px);
+    right: 232px;
+    color: #000000;
+    transform: rotate(0deg) scale(1) translateX(7px); } }
+
+@keyframes login-logo-container-animation--alt1 {
+  from {
+    transform: translateX(100%); }
+  to {
+    transform: translateX(0); } }
+
+.character-grid {
+  display: inline-block;
+  pointer-events: none;
+  animation-name: login-form-character-grid-animation;
+  animation-duration: 1800ms; }
+  .character-grid .character-grid-row .character-grid-col {
+    display: inline-block;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin: 8px 8px 8px 8px;
+    line-height: 20px;
+    width: 20px; }
+  .character-grid.animated .character-grid-row .character-grid-col {
+    transform: scale(0);
+    animation-name: character-grow-animation;
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 0ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 30ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 60ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 90ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 120ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 150ms; }
+    .character-grid.animated .character-grid-row .character-grid-col.character-distance-i {
+      animation-delay: 180ms; }
+  .character-grid.playing .character-grid-row .character-grid-col {
+    animation-play-state: running; }
+  .character-grid:not(.playing) .character-grid-row .character-grid-col {
+    transform: scale(0);
+    animation: none; }
+
+@keyframes character-grow-animation {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+@media (max-height: 700px) {
+  .login-container.login-alternate-1 .form-panel {
+    left: 40%;
+    top: 17%; } }
+
+@media (max-width: 700px) {
+  .login-container.login-alternate-1 {
+    overflow-y: auto;
+    height: 100vh; }
+    .login-container.login-alternate-1:after {
+      content: "";
+      position: absolute;
+      display: block;
+      background-color: #FFFFFF;
+      width: 48px;
+      height: 65%;
+      top: 35%;
+      right: 0;
+      z-index: 1; }
+    .login-container.login-alternate-1 .content-panel {
+      position: static; }
+      .login-container.login-alternate-1 .content-panel .logo-container {
+        right: 32px;
+        z-index: 5;
+        width: 88px;
+        height: 88px;
+        padding: 16px;
+        top: calc(25% + 32px);
+        transform: translateX(0);
+        animation: none;
+        transform: none; }
+      .login-container.login-alternate-1 .content-panel .character-grid {
+        display: none; }
+      .login-container.login-alternate-1 .content-panel .family-icon {
+        color: #000000;
+        top: auto;
+        right: auto;
+        bottom: 24px;
+        left: 48px;
+        transform: rotate(0deg) scale(1) translateX(0);
+        z-index: 4;
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        font-weight: 700;
+        border-width: 3px;
+        margin: 3px;
+        animation: none;
+        transform: none; }
+        .login-container.login-alternate-1 .content-panel .family-icon:before {
+          width: 15px;
+          height: 15px;
+          border-top: 3px solid;
+          border-right: 3px solid;
+          top: -3px;
+          right: -3px;
+          border-top-color: inherit;
+          border-right-color: inherit; }
+        .login-container.login-alternate-1 .content-panel .family-icon:after {
+          width: 15px;
+          height: 15px;
+          border-bottom: 3px solid;
+          border-left: 3px solid;
+          bottom: -3px;
+          left: -3px;
+          border-bottom-color: inherit;
+          border-left-color: inherit; }
+      .login-container.login-alternate-1 .content-panel .family-name-container {
+        top: auto;
+        right: auto;
+        left: 80px;
+        bottom: 28px;
+        overflow: visible; }
+        .login-container.login-alternate-1 .content-panel .family-name-container .family-name {
+          top: auto;
+          right: auto;
+          color: #000000;
+          transform: rotate(0deg) scale(1) translateX(0);
+          font-size: 12px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          max-width: 100%;
+          white-space: nowrap;
+          animation: none;
+          transform: none; }
+      .login-container.login-alternate-1 .content-panel .company-logo.company-logo-image {
+        display: none; }
+    .login-container.login-alternate-1 .form-panel {
+      left: 0;
+      max-width: unset;
+      width: calc(100% - 48px);
+      height: 65%;
+      top: 25%;
+      padding: 24px 0 24px 48px;
+      overflow: visible;
+      z-index: 4;
+      background-color: #FFFFFF;
+      opacity: 1;
+      animation: none;
+      transform: none; }
+      .login-container.login-alternate-1 .form-panel > * {
+        max-width: 100%;
+        animation: none;
+        transform: none; }
+      .login-container.login-alternate-1 .form-panel button.btn {
+        opacity: 1;
+        animation: none;
+        transform: none; }
+      .login-container.login-alternate-1 .form-panel .form-title {
+        white-space: initial;
+        text-align: right;
+        padding-right: 88px;
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: -16px;
+        margin-bottom: 48px; }
+      .login-container.login-alternate-1 .form-panel .form-flat {
+        background-color: #FFFFFF;
+        margin-bottom: 24px; }
+    .login-container.login-alternate-1 .graphic-panel {
+      height: calc(25% + 64px);
+      width: 100%;
+      background-position-x: 0;
+      background-attachment: unset;
+      animation: none;
+      transform: none; } }
+
+@media (max-height: 400px), (max-width: 350px) {
+  .login-container .form-panel .form-title {
+    font-size: 24px; } }
+
+.qtm-rtl-mode .form-panel {
+  text-align: right; }
+
+.qtm-rtl-mode .form-flat .form-group > label, .qtm-rtl-mode .form-innerLabel .form-group > label {
+  right: 0; }
+
+.qtm-rtl-mode .form-flat .form-group textarea,
+.qtm-rtl-mode .form-flat .form-group select.form-control,
+.qtm-rtl-mode .form-flat .form-group input[type="email"],
+.qtm-rtl-mode .form-flat .form-group input[type="text"],
+.qtm-rtl-mode .form-flat .form-group input[type="password"],
+.qtm-rtl-mode .form-flat .form-group input[type="color"],
+.qtm-rtl-mode .form-flat .form-group input[type="date"],
+.qtm-rtl-mode .form-flat .form-group input[type="datetime"],
+.qtm-rtl-mode .form-flat .form-group input[type="datetime-local"],
+.qtm-rtl-mode .form-flat .form-group input[type="month"],
+.qtm-rtl-mode .form-flat .form-group input[type="number"],
+.qtm-rtl-mode .form-flat .form-group input[type="range"],
+.qtm-rtl-mode .form-flat .form-group input[type="search"],
+.qtm-rtl-mode .form-flat .form-group input[type="tel"],
+.qtm-rtl-mode .form-flat .form-group input[type="time"],
+.qtm-rtl-mode .form-flat .form-group input[type="url"],
+.qtm-rtl-mode .form-flat .form-group input[type="week"], .qtm-rtl-mode .form-innerLabel .form-group textarea,
+.qtm-rtl-mode .form-innerLabel .form-group select.form-control,
+.qtm-rtl-mode .form-innerLabel .form-group input[type="email"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="text"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="password"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="color"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="date"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="datetime"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="datetime-local"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="month"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="number"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="range"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="search"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="tel"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="time"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="url"],
+.qtm-rtl-mode .form-innerLabel .form-group input[type="week"] {
+  text-align: right;
+  direction: rtl; }
+
+.qtm-rtl-mode .alert {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 24px; }
+  .qtm-rtl-mode .alert::before {
+    float: right;
+    margin-left: 0;
+    margin-right: -24px; }
+  .qtm-rtl-mode .alert.alert-inverse {
+    padding-left: 8px;
+    padding-right: 32px; }

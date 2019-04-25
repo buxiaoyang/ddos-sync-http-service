@@ -1,0 +1,67 @@
+/* Quantum version 1.0.25 for Bootstrap 3 */
+/* common specs */
+/* pagination specs */
+/* pager specs */
+/* common */
+.pagination > li > a,
+.pagination > li > a:focus {
+  color: #656668;
+  font-size: 19px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  padding: 0 0 0 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: transparent; }
+
+.pagination {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.pagination > li > a:hover {
+  color: #323435;
+  background-color: rgba(50, 52, 53, 0.05); }
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+  color: #FFFFFF;
+  background-color: #0073E7; }
+
+.qtm-dark-theme .pagination > li > a {
+  color: #FFFFFF; }
+
+.qtm-dark-theme .pagination > li > a:hover {
+  background-color: rgba(50, 52, 53, 0.05); }
+
+.qtm-dark-theme .pagination > .active > a,
+.qtm-dark-theme .pagination > .active > a:hover,
+.qtm-dark-theme .pagination > .active > a:focus {
+  background-color: rgba(50, 52, 53, 0.2); }
+
+/* pager */
+.pager li > a {
+  color: #0073E7;
+  font-size: 19px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background: transparent !important; }
+
+.pager .disabled > a,
+.pager .disabled > a:focus,
+.pager .disabled > a:hover {
+  color: rgba(50, 52, 53, 0.1); }
+
+.qtm-dark-theme .pager li > a {
+  color: #FFFFFF; }
+
+.qtm-dark-theme .pager .disabled > a,
+.qtm-dark-theme .pager .disabled > a:focus,
+.qtm-dark-theme .pager .disabled > a:hover {
+  color: rgba(255, 255, 255, 0.05); }

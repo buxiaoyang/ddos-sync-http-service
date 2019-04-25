@@ -1,0 +1,15 @@
+[
+  {
+    "outputFileName": "wwwroot/css/login.min.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "wwwroot/css/common/css/qtm-fonts.css",
+      "wwwroot/css/common/css/qtm-text.css",
+      "wwwroot/css/bootstrap3/alert/qtm-bs3-alert.css",
+      "wwwroot/css/bootstrap3/button/qtm-bs3-button.css",
+      "wwwroot/css/bootstrap3/form/qtm-bs3-form.css",
+      "wwwroot/css/bootstrap3/input/qtm-bs3-input.css",
+      "wwwroot/css/bootstrap3/login/qtm-bs3-login.css"
+    ]
+  }
+]

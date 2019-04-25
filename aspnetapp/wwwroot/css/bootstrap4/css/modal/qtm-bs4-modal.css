@@ -1,0 +1,237 @@
+/* Quantum version 1.0.25 for Bootstrap 4 */
+@charset "UTF-8";
+/* Font icon mappings */
+/* Font icon mappings */
+.modal {
+  top: 20%;
+  transform: none; }
+  .modal.fade .modal-dialog {
+    transform: none;
+    will-change: transform; }
+  .modal.fade .modal-dialog {
+    animation: zoomOut 0.15s;
+    -webkit-animation: zoomOut 0.15s; }
+  .modal.fade.in .modal-dialog {
+    animation: pulse 0.15s;
+    -webkit-animation: pulse 0.15s; }
+  .modal .modal-dialog {
+    width: 344px; }
+    .modal .modal-dialog .modal-content {
+      border: 0 solid #DCDEDF;
+      border-radius: 0;
+      box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+      background-color: #FFFFFF;
+      padding: 0 0 0 0; }
+      .modal .modal-dialog .modal-content .modal-header {
+        padding: 32px 24px 24px 24px;
+        border: none;
+        text-align: left; }
+        .modal .modal-dialog .modal-content .modal-header .modal-title {
+          margin: 0;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: unset; }
+        .modal .modal-dialog .modal-content .modal-header .close {
+          position: absolute;
+          min-height: 16px;
+          min-width: 16px;
+          height: 16px;
+          width: 16px;
+          line-height: 10px;
+          font-weight: bold;
+          padding: 0;
+          top: 0;
+          left: 100%;
+          margin: 0;
+          border-width: 0 0 0 0;
+          border-style: solid;
+          border-color: #DCDEDF;
+          border-radius: 0;
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+          background-color: #FFFFFF;
+          opacity: 1; }
+      .modal .modal-dialog .modal-content .modal-body {
+        clear: right;
+        padding: 8px 24px 32px 24px;
+        text-align: left; }
+        .modal .modal-dialog .modal-content .modal-body p {
+          font-size: 16px;
+          line-height: unset; }
+      .modal .modal-dialog .modal-content .modal-footer {
+        padding: 8px 8px 8px 8px;
+        border-width: 1px 0 0 0;
+        border-style: solid;
+        border-color: #DCDEDF;
+        background-color: transparent;
+        text-align: right;
+        box-shadow: none; }
+        .modal .modal-dialog .modal-content .modal-footer .btn {
+          margin: 0; }
+          .modal .modal-dialog .modal-content .modal-footer .btn + .btn {
+            margin-left: 8px; }
+          .modal .modal-dialog .modal-content .modal-footer .btn.btn-flat + .btn.btn-flat {
+            margin-left: 0; }
+    .modal .modal-dialog.modal-lg {
+      width: 480px; }
+      .modal .modal-dialog.modal-lg .modal-content {
+        padding: 0 0 0 0; }
+        .modal .modal-dialog.modal-lg .modal-content .modal-header {
+          padding: 32px 24px 24px 24px; }
+          .modal .modal-dialog.modal-lg .modal-content .modal-header .modal-title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: unset; }
+        .modal .modal-dialog.modal-lg .modal-content .modal-body {
+          padding: 8px 24px 32px 24px; }
+          .modal .modal-dialog.modal-lg .modal-content .modal-body p {
+            font-size: 18px;
+            line-height: 18px; }
+        .modal .modal-dialog.modal-lg .modal-content .modal-footer {
+          padding: 8px 8px 8px 8px; }
+    .modal .modal-dialog.modal-xlg {
+      width: 640px; }
+      .modal .modal-dialog.modal-xlg .modal-content {
+        padding: 0 0 0 0; }
+        .modal .modal-dialog.modal-xlg .modal-content .modal-header {
+          padding: 32px 24px 24px 24px; }
+          .modal .modal-dialog.modal-xlg .modal-content .modal-header .modal-title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: unset; }
+        .modal .modal-dialog.modal-xlg .modal-content .modal-body {
+          padding: 8px 24px 32px 24px; }
+          .modal .modal-dialog.modal-xlg .modal-content .modal-body p {
+            font-size: 18px;
+            line-height: 18px; }
+        .modal .modal-dialog.modal-xlg .modal-content .modal-footer {
+          padding: 8px 8px 8px 8px; }
+  .modal.modal-fullscreen {
+    top: 7%; }
+    .modal.modal-fullscreen .modal-dialog {
+      max-width: 2000px;
+      width: 90%;
+      height: 85%; }
+      .modal.modal-fullscreen .modal-dialog .modal-content {
+        padding: 0 0 0 0;
+        height: 100%; }
+        .modal.modal-fullscreen .modal-dialog .modal-content .modal-header {
+          padding: 32px 24px 24px 24px; }
+          .modal.modal-fullscreen .modal-dialog .modal-content .modal-header .modal-title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: unset; }
+        .modal.modal-fullscreen .modal-dialog .modal-content .modal-body {
+          position: absolute;
+          padding: 8px 24px 32px 24px;
+          top: 80px;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          max-height: none; }
+          .modal.modal-fullscreen .modal-dialog .modal-content .modal-body p {
+            font-size: 18px;
+            line-height: 18px; }
+        .modal.modal-fullscreen .modal-dialog .modal-content .modal-footer {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 8px 8px 8px 8px; }
+  .modal.modal-right {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: inherit;
+    padding-right: 0 !important;
+    padding-left: 16px; }
+    .modal.modal-right.fade .modal-dialog {
+      animation: slideOutRight 0.15s;
+      -webkit-animation: slideOutRight 0.15s; }
+    .modal.modal-right.fade.in .modal-dialog {
+      animation: slideInRight 0.15s;
+      -webkit-animation: slideInRight 0.15s; }
+    .modal.modal-right .modal-dialog {
+      margin: 0;
+      height: 100%;
+      width: 100%; }
+      .modal.modal-right .modal-dialog .modal-content {
+        height: 100%; }
+        .modal.modal-right .modal-dialog .modal-content .modal-header {
+          text-align: left;
+          padding-bottom: 8px; }
+        .modal.modal-right .modal-dialog .modal-content .modal-body {
+          text-align: left; }
+        .modal.modal-right .modal-dialog .modal-content .modal-footer {
+          text-align: left; }
+  .modal.modal-info .modal-content::before, .modal.modal-danger .modal-content::before, .modal.modal-error .modal-content::before, .modal.modal-warning .modal-content::before {
+    padding: 16px;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "QuantumIcons";
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 0;
+    left: -64px; }
+  .modal.modal-info .modal-content::before {
+    content: "";
+    color: #FFFFFF;
+    background-color: #0073E7; }
+  .modal.modal-danger .modal-content::before {
+    content: "";
+    color: #FFFFFF;
+    background-color: #E5004C; }
+  .modal.modal-error .modal-content::before {
+    content: "";
+    color: #FFFFFF;
+    background-color: #E5004C; }
+  .modal.modal-warning .modal-content::before {
+    content: "";
+    color: #FFFFFF;
+    background-color: #FFC002; }
+
+.modal-backdrop {
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72) 25%, rgba(0, 0, 0, 0.74) 25%, rgba(0, 0, 0, 0.74) 50%, rgba(0, 0, 0, 0.72) 50%) top left fixed;
+  background-attachment: fixed;
+  background-size: 6px 6px; }
+
+.qtm-dark-theme .modal .modal-dialog .modal-content {
+  border-color: rgba(25, 33, 36, 0.5);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: #203037; }
+  .qtm-dark-theme .modal .modal-dialog .modal-content .modal-header .close {
+    border-color: rgba(25, 33, 36, 0.5);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    background-color: #203037; }
+  .qtm-dark-theme .modal .modal-dialog .modal-content .modal-footer {
+    border-color: rgba(25, 33, 36, 0.5); }
+
+.qtm-dark-theme .modal.modal-info .modal-content::before {
+  content: "";
+  color: #FFFFFF;
+  background-color: #0073E7; }
+
+.qtm-dark-theme .modal.modal-danger .modal-content::before {
+  content: "";
+  color: #FFFFFF;
+  background-color: #E5004C; }
+
+.qtm-dark-theme .modal.modal-error .modal-content::before {
+  content: "";
+  color: #FFFFFF;
+  background-color: #E5004C; }
+
+.qtm-dark-theme .modal.modal-warning .modal-content::before {
+  content: "";
+  color: #FFFFFF;
+  background-color: #FFC002; }
+
+.qtm-dark-theme .modal-backdrop {
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72) 25%, rgba(0, 0, 0, 0.74) 25%, rgba(0, 0, 0, 0.74) 50%, rgba(0, 0, 0, 0.72) 50%) top left fixed;
+  background-attachment: fixed;
+  background-size: 6px 6px; }

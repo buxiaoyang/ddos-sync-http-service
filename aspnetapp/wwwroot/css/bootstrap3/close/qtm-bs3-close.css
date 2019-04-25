@@ -1,0 +1,36 @@
+/* Quantum version 1.0.25 for Bootstrap 3 */
+@charset "UTF-8";
+/* Font icon mappings */
+.close {
+  height: 16px;
+  width: 16px;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  color: inherit;
+  text-shadow: none;
+  opacity: 1;
+  margin: 0; }
+  .close:before {
+    content: "";
+    font-family: "QuantumIcons";
+    font-size: 10px;
+    opacity: 0.56; }
+  .close:hover, .close:focus {
+    color: inherit;
+    text-decoration: none;
+    opacity: 1; }
+    .close:hover:before, .close:focus:before {
+      opacity: 1; }
+  .close:focus {
+    outline: none; }
+  .close > span, .close > .qtm-font-icon, .close > .qtm-icon {
+    display: none; }
+
+.qtm-dark-theme .close {
+  color: inherit;
+  text-shadow: none; }
+  .qtm-dark-theme .close:hover, .qtm-dark-theme .close:focus {
+    color: inherit; }
+  .qtm-dark-theme .close:focus {
+    outline: none; }

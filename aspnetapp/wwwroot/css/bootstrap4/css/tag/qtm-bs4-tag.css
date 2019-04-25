@@ -1,0 +1,299 @@
+/* Quantum version 1.0.25 for Bootstrap 4 */
+/* Font icon mappings */
+body.qtm-dark-theme {
+  color: rgba(255, 255, 255, 0.8); }
+
+.qtm-dark-theme {
+  background-color: #203037; }
+  .qtm-dark-theme h1,
+  .qtm-dark-theme h2,
+  .qtm-dark-theme h3,
+  .qtm-dark-theme h4,
+  .qtm-dark-theme p {
+    color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme hr {
+    border-color: rgba(255, 255, 255, 0.2); }
+  .qtm-dark-theme.theme-1 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-2 {
+    background-color: #203037; }
+  .qtm-dark-theme.theme-3 {
+    background-color: #203037; }
+
+.badge {
+  display: inline-flex;
+  height: 16px;
+  padding: 0 8px 0 8px;
+  margin: 0 8px 0 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #323435;
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 0 4px 4px 0;
+  border-color: #DCDEDF;
+  border-style: solid;
+  border-width: 1px 1px 1px 0; }
+  .badge::before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    top: -1px;
+    left: -8px;
+    width: 3px;
+    height: calc(100% + 2px);
+    vertical-align: middle;
+    background-color: #DCDEDF; }
+  .badge.badge-success, .badge.badge-active {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .badge.badge-warning {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .badge.badge-neutral {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .badge.badge-danger {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .badge:last-child {
+    margin-right: 0; }
+  .badge > .qtm-icon-small-10 {
+    margin: 2px; }
+  .badge .truncate-text {
+    max-width: 64px;
+    display: inline-block; }
+  .badge.badge-icon-only {
+    padding: 0 4px 0 4px; }
+    .badge.badge-icon-only::before {
+      top: -1px;
+      left: -4px; }
+  .badge .close {
+    margin: -1px -2px -1px 8px;
+    text-shadow: none;
+    float: unset; }
+
+.list-group .list-group-item > .badge + .badge {
+  margin-right: 8px; }
+
+.list-group .list-group-item > .badge:first-child {
+  margin-right: 0; }
+
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge,
+.list-group-item.disabled .badge,
+.nav-pills > .disabled .badge {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #323435;
+  border-color: #DCDEDF; }
+  .list-group-item.active > .badge.badge-success, .list-group-item.active > .badge.badge-active,
+  .nav-pills > .active > a > .badge.badge-success,
+  .nav-pills > .active > a > .badge.badge-active,
+  .list-group-item.disabled .badge.badge-success,
+  .list-group-item.disabled .badge.badge-active,
+  .nav-pills > .disabled .badge.badge-success,
+  .nav-pills > .disabled .badge.badge-active {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .list-group-item.active > .badge.badge-warning,
+  .nav-pills > .active > a > .badge.badge-warning,
+  .list-group-item.disabled .badge.badge-warning,
+  .nav-pills > .disabled .badge.badge-warning {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .list-group-item.active > .badge.badge-neutral,
+  .nav-pills > .active > a > .badge.badge-neutral,
+  .list-group-item.disabled .badge.badge-neutral,
+  .nav-pills > .disabled .badge.badge-neutral {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .list-group-item.active > .badge.badge-danger,
+  .nav-pills > .active > a > .badge.badge-danger,
+  .list-group-item.disabled .badge.badge-danger,
+  .nav-pills > .disabled .badge.badge-danger {
+    background-color: rgba(255, 255, 255, 0.5); }
+
+.badge.badge-primary::before {
+  background-color: #0073E7; }
+
+.badge.badge-dark::before {
+  background-color: #323435; }
+
+.badge.badge-darkest::before {
+  background-color: #000000; }
+
+.badge.badge-alternative-1::before {
+  background-color: #C6179D; }
+
+.badge.badge-alternative-2::before {
+  background-color: #7425AD; }
+
+.badge.badge-alternative-3::before {
+  background-color: #231CA5; }
+
+.badge.badge-alternative-4::before {
+  background-color: #1668C1; }
+
+.badge.badge-alternative-5::before {
+  background-color: #29CEFF; }
+
+.badge.badge-alternative-6::before {
+  background-color: #2fD6C3; }
+
+.badge.badge-neutral-1::before {
+  background-color: #656668; }
+
+.badge.badge-neutral-2::before {
+  background-color: #BDBEC0; }
+
+.badge.badge-neutral-3::before {
+  background-color: #DCDEDF; }
+
+.badge.badge-neutral-4::before {
+  background-color: #F1F2F3; }
+
+.badge.badge-neutral-5::before {
+  background-color: #F5F7F8; }
+
+.badge.badge-accent-1::before {
+  background-color: #1AAC60; }
+
+.badge.badge-accent-2::before {
+  background-color: #F48B34; }
+
+.badge.badge-accent-3::before {
+  background-color: #C6179D; }
+
+.badge.badge-accent-4::before {
+  background-color: #E5004C; }
+
+.badge.badge-accent-5::before {
+  background-color: #FCDB1F; }
+
+.badge.badge-secondary-1::before {
+  background-color: #3939C6; }
+
+.badge.badge-secondary-2::before {
+  background-color: #00ABF3; }
+
+.badge.badge-secondary-3::before {
+  background-color: #43E4FF; }
+
+.badge.badge-secondary-4::before {
+  background-color: #1FFBBA; }
+
+.badge.badge-secondary-5::before {
+  background-color: #75DA4D; }
+
+.badge.badge-secondary-6::before {
+  background-color: #FFCE00; }
+
+.badge.badge-secondary-7::before {
+  background-color: #EB23C2; }
+
+.badge.badge-secondary-8::before {
+  background-color: #BA47E2; }
+
+.badge.badge-secondary-9::before {
+  background-color: #271782; }
+
+.badge.badge-secondary-10::before {
+  background-color: #014272; }
+
+.badge.badge-secondary-11::before {
+  background-color: #0B8EAC; }
+
+.badge.badge-secondary-12::before {
+  background-color: #00A989; }
+
+.badge.badge-secondary-13::before {
+  background-color: #5BBA36; }
+
+.badge.badge-secondary-14::before {
+  background-color: #FFB000; }
+
+.badge.badge-secondary-15::before {
+  background-color: #9B1E83; }
+
+.badge.badge-secondary-16::before {
+  background-color: #5216AC; }
+
+.badge.badge-secondary-17::before {
+  background-color: #FF454F; }
+
+.badge.badge-secondary-18::before {
+  background-color: #FFB24D; }
+
+.badge.badge-secondary-19::before {
+  background-color: #FDE159; }
+
+.badge.badge-secondary-20::before {
+  background-color: #33C180; }
+
+.badge.badge-secondary-21::before {
+  background-color: #B21646; }
+
+.badge.badge-secondary-22::before {
+  background-color: #E57828; }
+
+.badge.badge-secondary-23::before {
+  background-color: #FFC002; }
+
+.badge.badge-secondary-24::before {
+  background-color: #118C4F; }
+
+.badge.badge-success::before {
+  background-color: #1AAC60; }
+
+.badge.badge-active::before {
+  background-color: #1AAC60; }
+
+.badge.badge-warning::before {
+  background-color: #FFC002; }
+
+.badge.badge-danger::before {
+  background-color: #E5004C; }
+
+.badge.badge-info::before {
+  background-color: #43E4FF; }
+
+.badge.badge-unknown::before {
+  background-color: #C6179D; }
+
+.qtm-dark-theme .badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.4); }
+  .qtm-dark-theme .badge.badge-success, .qtm-dark-theme .badge.badge-active {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .badge.badge-warning {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .badge.badge-neutral {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .badge.badge-danger {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .badge .close {
+    text-shadow: none; }
+
+.qtm-dark-theme .list-group-item.active > .badge,
+.qtm-dark-theme .nav-pills > .active > a > .badge,
+.qtm-dark-theme .list-group-item.disabled .badge,
+.qtm-dark-theme .nav-pills > .disabled .badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.4); }
+  .qtm-dark-theme .list-group-item.active > .badge.badge-success, .qtm-dark-theme .list-group-item.active > .badge.badge-active,
+  .qtm-dark-theme .nav-pills > .active > a > .badge.badge-success,
+  .qtm-dark-theme .nav-pills > .active > a > .badge.badge-active,
+  .qtm-dark-theme .list-group-item.disabled .badge.badge-success,
+  .qtm-dark-theme .list-group-item.disabled .badge.badge-active,
+  .qtm-dark-theme .nav-pills > .disabled .badge.badge-success,
+  .qtm-dark-theme .nav-pills > .disabled .badge.badge-active {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .list-group-item.active > .badge.badge-warning,
+  .qtm-dark-theme .nav-pills > .active > a > .badge.badge-warning,
+  .qtm-dark-theme .list-group-item.disabled .badge.badge-warning,
+  .qtm-dark-theme .nav-pills > .disabled .badge.badge-warning {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .list-group-item.active > .badge.badge-neutral,
+  .qtm-dark-theme .nav-pills > .active > a > .badge.badge-neutral,
+  .qtm-dark-theme .list-group-item.disabled .badge.badge-neutral,
+  .qtm-dark-theme .nav-pills > .disabled .badge.badge-neutral {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .qtm-dark-theme .list-group-item.active > .badge.badge-danger,
+  .qtm-dark-theme .nav-pills > .active > a > .badge.badge-danger,
+  .qtm-dark-theme .list-group-item.disabled .badge.badge-danger,
+  .qtm-dark-theme .nav-pills > .disabled .badge.badge-danger {
+    background-color: rgba(255, 255, 255, 0.1); }

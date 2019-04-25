@@ -1,0 +1,113 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/css/login.min.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <script type="text/javascript">
+                    function onFocus(event) {
+                        if (event.target.value === "") {
+                            event.target.parentNode.classList.remove('empty-value');
+                        }
+                    }
+                    function onBlur(event) {
+                        if (event.target.value === "") {
+                            event.target.parentNode.classList.add('empty-value');
+                        }
+                    }
+        </script>
+        <div class="login-container login-alternate-1">
+            <div class="graphic-panel" style="background-image: url(/images/login_bg.jpg)"></div>
+            <div class="content-panel">
+                <div>
+                    <div class="logo-container">
+                        <svg class="logo" id="Layer_1" width="96" height="96" viewBox="0 0 96 96"><title>OpenL10N Logo</title><path d="M75.5,43.32l0,0,0,0V40H20v4h1C31.71,57.32,34,74.13,34,86V96h4V86c0-11.79-2.16-28.24-12-42H70c-9.8,13.76-12,30.21-12,42V96h4V86c0-11.87,2.29-28.68,13-42h.52Z" fill="#fff"></path><rect x="46" y="2" width="4" height="10" fill="#fff"></rect><rect x="36" y="15" width="24" height="4" fill="#fff"></rect><polygon points="34.16 37 30.72 26 65.28 26 61.84 37 66.03 37 70.72 22 25.28 22 29.97 37 34.16 37" fill="#fff"></polygon></svg>
+                    </div>
+                    <div class="character-grid animated playing">
+                        <div class="character-grid-row">
+                            <span class="character-grid-col character-distance-6">+</span>
+                            <span class="character-grid-col character-distance-5">+</span>
+                            <span class="character-grid-col character-distance-4">+</span>
+                            <span class="character-grid-col character-distance-3">+</span>
+                            <span class="character-grid-col character-distance-2">+</span>
+                            <span class="character-grid-col character-distance-1">+</span>
+                        </div>
+                        <div class="character-grid-row">
+                            <span class="character-grid-col character-distance-6">+</span>
+                            <span class="character-grid-col character-distance-5">+</span>
+                            <span class="character-grid-col character-distance-4">+</span>
+                            <span class="character-grid-col character-distance-3">+</span>
+                            <span class="character-grid-col character-distance-2">+</span>
+                            <span class="character-grid-col character-distance-1">+</span>
+                        </div>
+                        <div class="character-grid-row">
+                            <span class="character-grid-col character-distance-6">+</span>
+                            <span class="character-grid-col character-distance-5">+</span>
+                            <span class="character-grid-col character-distance-4">+</span>
+                            <span class="character-grid-col character-distance-3">+</span>
+                            <span class="character-grid-col character-distance-2">+</span>
+                            <span class="character-grid-col character-distance-1">+</span>
+                        </div>
+                        <div class="character-grid-row">
+                            <span class="character-grid-col character-distance-6">+</span>
+                            <span class="character-grid-col character-distance-5">+</span>
+                            <span class="character-grid-col character-distance-4">+</span>
+                            <span class="character-grid-col character-distance-3">+</span>
+                            <span class="character-grid-col character-distance-2">+</span>
+                            <span class="character-grid-col character-distance-1">+</span>
+                        </div>
+                        <div class="character-grid-row">
+                            <span class="character-grid-col character-distance-6">+</span>
+                            <span class="character-grid-col character-distance-5">+</span>
+                            <span class="character-grid-col character-distance-4">+</span>
+                            <span class="character-grid-col character-distance-3">+</span>
+                            <span class="character-grid-col character-distance-2">+</span>
+                            <span class="character-grid-col character-distance-1">+</span>
+                        </div>
+                    </div>
+                    <div class="family-icon">I</div>
+                    <div class="family-name-container">
+                        <span class="family-name">Docker Learning</span>
+                    </div>
+                    <div class="company-logo company-logo-image"></div>
+                </div>
+            </div>
+
+            <div class="form-panel">
+                <h1 class="form-title">
+                    Welcome<br />Hello Docker
+                </h1>
+                <form class="form-flat ng-pristine ng-valid">
+                    <div class="form-group empty-value">
+                        <label for="email1" title="Email address">Login</label>
+                        <input type="email" id="email1" onfocus="onFocus(event);" onblur="onBlur(event);">
+                    </div>
+                    <div class="form-group empty-value">
+                        <label for="password1" title="Password">Password</label>
+                        <input type="password" id="password1" onfocus="onFocus(event);" onblur="onBlur(event);">
+                        <div style="display: none;" class="alert alert-error" role="alert" id="login_error1">
+                            The login and password you entered are not valid.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-right">
+                            <button type="submit" id="submit_login1" class="btn btn-primary">
+                                Log In
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

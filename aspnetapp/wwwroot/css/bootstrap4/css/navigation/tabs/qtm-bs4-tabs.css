@@ -1,0 +1,107 @@
+.nav.nav-tabs, .nav.navbar-nav {
+  margin: 8px 0 0 0;
+  border-bottom: 1px solid transparent; }
+  .nav.nav-tabs .nav-item, .nav.navbar-nav .nav-item {
+    margin-left: 12px;
+    margin-right: 12px; }
+    .nav.nav-tabs .nav-item .nav-link, .nav.navbar-nav .nav-item .nav-link {
+      position: relative;
+      display: inline-block;
+      line-height: 37px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #323435;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 0;
+      border-width: 0;
+      padding: 0 0 0 0;
+      margin: 0; }
+      .nav.nav-tabs .nav-item .nav-link:before, .nav.navbar-nav .nav-item .nav-link:before {
+        position: absolute;
+        top: 100%;
+        content: "";
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0;
+        background-color: #000000;
+        transition: width 0.24s ease-out;
+        -webkit-transition: width 0.24s ease-out; }
+      .nav.nav-tabs .nav-item .nav-link:after, .nav.navbar-nav .nav-item .nav-link:after {
+        display: block;
+        content: attr(title);
+        font-weight: bold;
+        height: 0;
+        width: auto;
+        overflow: hidden;
+        visibility: hidden; }
+      .nav.nav-tabs .nav-item .nav-link:not(.disabled):hover, .nav.nav-tabs .nav-item .nav-link:not(:disabled):hover, .nav.navbar-nav .nav-item .nav-link:not(.disabled):hover, .nav.navbar-nav .nav-item .nav-link:not(:disabled):hover {
+        background: none;
+        border-bottom-color: transparent;
+        color: #000000; }
+      .nav.nav-tabs .nav-item .nav-link:not(.disabled):focus, .nav.nav-tabs .nav-item .nav-link:not(:disabled):focus, .nav.navbar-nav .nav-item .nav-link:not(.disabled):focus, .nav.navbar-nav .nav-item .nav-link:not(:disabled):focus {
+        background: none;
+        border-bottom-color: transparent;
+        outline: none;
+        color: #323435; }
+  .nav.nav-tabs.nav-sm .nav-item .nav-link, .nav.navbar-nav.nav-sm .nav-item .nav-link {
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3px; }
+    .nav.nav-tabs.nav-sm .nav-item .nav-link:before, .nav.navbar-nav.nav-sm .nav-item .nav-link:before {
+      height: 3px; }
+  .nav.nav-tabs.nav-primary .nav-item .nav-link, .nav.navbar-nav.nav-primary .nav-item .nav-link {
+    height: 48px;
+    line-height: 45px; }
+    .nav.nav-tabs.nav-primary .nav-item .nav-link::before, .nav.navbar-nav.nav-primary .nav-item .nav-link::before {
+      background-color: #0073E7; }
+
+.qtm-dark-theme .nav.nav-tabs .nav-item .nav-link, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.8); }
+  .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:before, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:before {
+    background-color: #FFFFFF; }
+  .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):hover {
+    background: none;
+    border-bottom-color: transparent;
+    color: #FFFFFF; }
+  .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):focus {
+    background: none;
+    border-bottom-color: transparent;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8); }
+
+.qtm-dark-theme .nav.nav-tabs.nav-primary .nav-item .nav-link::before, .qtm-dark-theme .nav.navbar-nav.nav-primary .nav-item .nav-link::before {
+  background-color: #1F91FF; }
+
+.nav.nav-tabs .nav-item .nav-link.disabled, .nav.nav-tabs .nav-item .nav-link.disabled:hover, .nav.nav-tabs .nav-item .nav-link.disabled:focus, .nav.nav-tabs .nav-item .nav-link:disabled, .nav.nav-tabs .nav-item .nav-link:disabled:hover, .nav.nav-tabs .nav-item .nav-link:disabled:focus, .nav.navbar-nav .nav-item .nav-link.disabled, .nav.navbar-nav .nav-item .nav-link.disabled:hover, .nav.navbar-nav .nav-item .nav-link.disabled:focus, .nav.navbar-nav .nav-item .nav-link:disabled, .nav.navbar-nav .nav-item .nav-link:disabled:hover, .nav.navbar-nav .nav-item .nav-link:disabled:focus {
+  background: none;
+  outline: none;
+  color: #cececf;
+  border-width: 0 0 3px 0;
+  border-bottom: transparent; }
+
+.nav.nav-tabs .nav-item .nav-link:not(.disabled).active, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active {
+  font-weight: 600;
+  border-width: 0; }
+  .nav.nav-tabs .nav-item .nav-link:not(.disabled).active, .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:hover, .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:hover:focus, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:hover, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:hover:focus, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:hover, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:hover:focus, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:hover, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:hover:focus, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:hover, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:hover:focus, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:hover, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:hover:focus, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:hover, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:hover:focus, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:hover, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:hover:focus {
+    background: none;
+    color: #000000; }
+  .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:focus, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:focus, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:focus, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:focus, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:focus, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:focus, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:focus, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:focus {
+    color: #323435; }
+  .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:before, .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:before, .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:before, .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:before, .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:before, .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:before, .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:before, .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:before {
+    width: 100%; }
+
+.qtm-dark-theme .nav.nav-tabs .nav-item .nav-link.disabled, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link.disabled:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link.disabled:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:disabled, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:disabled:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:disabled:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link.disabled, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link.disabled:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link.disabled:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:disabled, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:disabled:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:disabled:focus {
+  background: none;
+  outline: none;
+  color: #4d595f;
+  border-bottom-color: transparent; }
+
+.qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled).active, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:hover:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):active, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:hover:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled).active, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:hover:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):active, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:hover, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:hover:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled).active, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:hover:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):active, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:hover:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled).active, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:hover:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):active, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:hover, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:hover:focus {
+  color: #FFFFFF; }
+
+.qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled).active:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(.disabled):active:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled).active:focus, .qtm-dark-theme .nav.nav-tabs .nav-item .nav-link:not(:disabled):active:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled).active:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(.disabled):active:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled).active:focus, .qtm-dark-theme .nav.navbar-nav .nav-item .nav-link:not(:disabled):active:focus {
+  color: rgba(255, 255, 255, 0.8); }
